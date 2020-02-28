@@ -73,7 +73,6 @@
                 </el-button>
             </el-form-item>
         </el-form>
-        <BaseModal :chatMode="saved" />
         <div class="tabs-wrapper">
             <span class="must">
                 *

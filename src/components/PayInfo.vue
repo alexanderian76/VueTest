@@ -29,12 +29,10 @@ export default {
     },
     props:{
         id: { type: Number, default: () => Number() },
-        //  user: { type: Object, default: () => Object() },
     },
      beforeRouteEnter(to, from, next) {
         next((vm) => {
             if (vm.id) {
-               // vm.$store.dispatch('getUser', vm.userId);
                   vm.$store.state.userModule.user.forEach((item) => {
                 if(!Number(item.card.split(' ').join('')) === Number(vm.id))
                 {
@@ -55,7 +53,6 @@ export default {
         }
     },
     mounted() {
-        // this.currentUser = this.user;
         if(this.id === null) {
             this.$router.push({ path: '/user_account/:id', name: 'UserAccount', component: UserAccount,
 
