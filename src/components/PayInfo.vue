@@ -4,14 +4,14 @@
             {{ user.name  }}
         </p>
         <p>
-            <b>Никнейм: </b> {{ user.card }}
+            <b>Номер карты: </b> {{ user.card }}
         </p>
 
         <p>
-            <b>Дата рождения: </b> {{ user.date }}
+            <b>Дата оплаты: </b> {{ user.date }}
         </p>
         <p>
-            <b>E-mail: </b> {{ user.sum }}
+            <b>Сумма платежа: </b> {{ user.sum }}
         </p>
 
     </div>

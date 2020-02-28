@@ -15,7 +15,7 @@
             </div>
             <div>
                 <router-link to="/paylist">
-                    Статистика
+                    История платежей
                 </router-link>
             </div>
         </nav>
